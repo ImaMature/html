@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	
+	<h1>이미지 태그</h1>
+		
+	<h2>img src = "이미지파일경로.확장자명"</h2>
+		<p> % 문서 사이즈 백분율 [자동형]
+		<p> px : 모니터 사이즈의 상대크기 [상대단위]
+		<p> 이미지 경로
+			<p> 절대 경로 : D:\work0928\front\src\main\webapp\코기.jpg
+			<p> 상대 경로 : 현재 위치이고 동일하다면 불러옴
+				<p> / : 루트
+				<p> ./ : 현재경로
+				<p> ../ : 현재 폴더의 상단 폴더
+	<img src = "코기.jpg" title="웰시코기">
+			<!-- 태그명 속성명 -->
+	<img alt="" src="코기.jpg">		
+	<br>		
+	<img src = "cogi.gif" title="작은코기">
+	<img alt="" src="cogi.gif" width = "100">	
+	<img alt="" src="cogi.gif" width = "80">		
+	<br>
+	<img alt="" src="코기.jpg" width = "300px;">
+	<br>
+	<img alt="" src="코기.jpg" width="50%">
+	<p> 절대경로 </p>
+	<br> <!-- 절대경로 -->
+		<img alt="" src="D:\work0928\front\src\main\webapp\코기.jpg">
+		<img alt="" src="http://localhost:8081/front/HTML/%EC%BD%94%EA%B8%B0.jpg">
+	<br> <!-- 상대경로 -->
+	<p> 상대경로1 </p>
+	<img alt="" src="코기.jpg">
+	
+	<br> <!-- 상대경로 -->
+	<p>상대경로2[x]</p>
+	<img alt="" src="../webapp/코기.jpg">
+	<br>
+	<p> 상대경로3 : 상위 폴더로 이동</p>
+	<!-- 상대경로 -->
+	<img alt="" src="../코기.jpg"> <!-- ../ 현재 폴더 위로 위동 -->
+	<p> 상대경로4 : 하위 폴더로 이동 </p>
+	<br>
+	<img alt="" src="img/코기.jpg">
+</body>
+</html>
