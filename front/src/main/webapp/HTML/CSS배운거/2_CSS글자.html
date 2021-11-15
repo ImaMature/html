@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+	<style type="text/css">	/* CSS 정의 시작 */	
+	/*	CSS 주석 */
+	
+	*{						/* *을 넣으면 전역 적용 */
+	font-family:  "궁서"; 	/* 폰트 설정 */
+	color: blue				/* 폰트 색상 */
+	}
+		
+		/* 웹폰트 정의 */
+	@font-face {
+		font-family: 'SF_HambakSnow';
+		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;		
+	}
+	
+	@font-face {
+	    font-family: 'OTWelcomeRA';
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	h3{
+		font-family: 'SF_HambakSnow'; 						/* 웹폰트 적용 */
+		text-decoration: overline line-through underline;	/* 윗줄 취소선 밑줄 */
+		text-align: center;									/* 텍스트 정렬 */
+		text-shadow: 3px 3px 5px green;						/* 폰트 그림자, 그림자 색*/
+	}
+	p{
+		font-family: 'OTWelcomeRA';
+		background-color: yellow;							/* 글자 배경색 */
+		line-height: 200%;									/* 줄 간격 (100%가 기본값) : 한글자*/
+		font-size: 30px;									/* 폰트 크기 */
+		font-style: italic;									/* 폰트 기울기 */
+		font-weight: bold;									/* 글자 굵게 */
+		
+		letter-spacing: 10px;								/* 글자 간격 [ 자간 ] */
+		word-spacing: 3px;									/* 단어 간격 [ 어간 ] */
+	}
+	
+						/* CSS 정의 끝 */
+	</style>	
+</head>
+<body>
+
+	<h3>고양이</h3>
+	<p>고양이는 육식동물로, <br>반려동물로서 개와 가장 큰 차이점이 바로 식성이다.</p> 
+	<p>물론 아예 야채를 전혀 먹지 못하는 것은 아니고, 어디까지나 주된 식단이 고기라는 말이다.</p>
+
+</body>
+</html>
