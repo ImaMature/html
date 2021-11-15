@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1> 폼 양식 : 사용자가 키보드로 데이터 입력하거나 마우스를 선택할 수 있는 서식</h1>
+	<form action="0HTML정리.html">
+				이름 : <input type="text" value="유재석" readonly="readonly">	<!-- 태그명 속성명=값 -->
+															<!-- readonly : 수정금지, 읽기전용 -->
+		<br><br>아이디 : <input type="text" placeholder="아이디 입력" autofocus="autofocus"> <!-- 페이지가 실행되면 자동으로 여기로 입력커서가 이동 -->
+		<!-- placeholder 아이디입력하기전 나타나는 글자 -->	<!-- autofocus : 자동 -->
+		<br><br>비밀번호 : <input type="password"> 
+		<br><br>회원등급 : <input type="text" value="일반" disabled="disabled">
+															<!-- disabled : 사용금지 -->
+		<br><br><input type="button" value="버튼">
+		<br><br><input type="radio" name="email"> 예 <input type="radio" name="email"> 아니오 
+		 <!-- 중복체크가 되기 때문에 그룹화해서 중복 방지 -->
+		 <!-- name값이 동일한 경우 그룹화 가능 [1개의 버튼만 선택가능]-->
+		<br><br>
+			<input type="checkbox" name="item1"> 뉴스
+			<input type="checkbox" name='item2'> 드라마 
+			<!-- name 동일한 경우에도 복수 선택 -->
+			<input type="checkbox" name="item3"> 스포츠
+		<br>
+			이메일 : <input type="text"> @
+			<select>
+				<option>직접 입력</option>
+				<option>naver.com</option>
+				<option>nate.com</option>
+			</select>	<!-- select를 통해 옵션을 넣어주고 그안에 값을 넣어주기 그럼 마우스로 누를 수 있는 목록이 생김 -->
+		<br>
+			자기소개 <textarea rows="6" cols="40"></textarea>
+					<!-- rows : 행 문자 수 / cols : 열 문자 수 --> 
+					<!-- 행에 6자 들어감, 열에 40자 들어감 -->
+		<br>
+			<input type="file">
+		<br><input type="button" value="버튼">	<!-- 폼 이벤트 -->
+			<input type="submit" value="저장하기"> <!-- 폼 저장[전송 action="전송경로"] -->
+			<input type="reset" value="다시쓰기">  <!-- reset 폼 초기화 -->
+		
+	</form>
+</body>
+</html>

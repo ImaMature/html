@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+		<h1> 폼 태그 2</h1>
+		
+		<form>
+			<label> 색상 </label> 						<input type="color"> 			<!-- 색상 지정할 수 있는 칸 , 색상 값 빼오기 좋음 -->
+			<br><br><label> 날짜 </label> 				<input type="date"> 			<!-- type = "date" => 달력 -->
+			<br><br><label> 날짜/시간 직접 입력 </label> 		<input type="datetime" size = 100>			<!-- type = "datetime" => 시간 -->
+			<br><br><label> 날짜/시간 선택하기 </label>		<input type="datetime-local" required="required">	<!-- type = "datetime-local" => 날짜/시간 선택하기 -->
+			<br><br><label> 이메일[@ 필수] </label> 		<input type="email">			<!-- type = "email" => 이메일, 입력할 때 골뱅이가 필수로 들어가야 전송됨 -->
+			<input type="submit" value="전송">
+			<br><br><label> 월별 달력 </label> 			<input type="month">			<!-- type = "email" => 이메일, 골뱅이가 필수로 들어가야 전송됨 -->
+			<br><br><label> 주별 선택 </label> 			<input type = "week">			<!-- type = "week" 시간 선택 -->
+			<br><br><label> 시간 </label> 				<input type = "time">			<!-- type = "time" 시간 선택 -->
+			<br><br><label> 숫자 입력 상자</label> 			<input type="number">
+			<br><br><label> 스크롤 </label> 				<input type = "range" min = "0" max = "100"> 
+			<br><label> 스크롤2 </label> 					<input type = "range" min = "0" max = "100" step = "10"><!-- step = "숫자" => 숫자만큼 스크롤 증감 -->
+			<br><br><label> 목록리스트</label>				<input list="list">
+														<datalist id = "list">
+															<option value = "네이버">
+															<option value = "다음">
+															<option value = "네이트"> 
+															
+														</datalist>
+			
+			
+ 		</form>
+</body>
+</html>
