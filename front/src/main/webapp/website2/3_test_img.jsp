@@ -24,7 +24,7 @@
 </head>
 <body>
 	<section id="main_img">
-		<a href="#"> <img alt="" src="img/regbtn.png"> </a>		<!-- 신청하러가기 버튼 -->
+		<a href="http://www.naver.com"> <img alt="" src="img/regbtn.png"> </a>		<!-- 신청하러가기 버튼 -->
 	</section>
 </body>
 </html>

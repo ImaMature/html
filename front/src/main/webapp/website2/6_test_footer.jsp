@@ -5,8 +5,53 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+	<style type="text/css">
+		footer				{ clear: both; height: 250px; background-color:#05354E; color: white;}
+		#footer_menu		{ padding: 20px 0 0 100px; font-weight: bold;}
+		#footer_menu li		{display:inline; margin-right:3px; }
+		footer .items		{float: left; margin: 40px 0 0 100px;}
+		footer h3			{ color: #098d74; }
+		footer .items li	{margin-top: 5px;}
+		footer .items ui	{margin-top: 15px;}
+		footer .phone { font-size: 25px; font-weight: bold;}
+		
+	</style>
 </head>
 <body>
-
+	<footer>
+		<div class="box">
+			<div id = footer_menu>
+				<ul>
+					<li>The 베이킹 소개</li>
+					<li>개인정보처리방침</li>
+					<li>저작권 정보</li>
+					<li>이용 안내</li>
+				</ul>
+			</div>
+			<div class = "items">
+				<h3 >문의전화</h3>
+				<ul>
+					<li class=phone>123-1234</li>
+					<li>10:00 - 18:00 (Launch 12:00 - 13:00)</li>
+				</ul>
+			</div>
+			<div class = "items">
+				<h3>The 베이킹</h3>
+				<ul>
+					<li>주소 : 경기도 용인시 기흥구 동백대로 123</li>
+					<li>전화 : 031-123-1234</li>
+					<li>팩스 : 031-123-1234</li>
+					<li>이메일 : 123@123456789</li>
+				</ul>
+			</div>
+			<div class = "items">
+				<h3>입금정보</h3>
+				<ul>
+					<li>농협 123-123-123456</li>
+					<li>The 베이킹</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
