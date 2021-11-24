@@ -21,10 +21,11 @@
 		}
 		header .logo {
 			position: absolute; 
-			top: 25px; left: 20px;
+			top: 12px; left: 20px;
+			font-size: 34px;
 		}
 		header .logo span {
-			color: blue; 
+			color: #5F61BA; 
 			font-weight: bold;
 		}
 		header .menu {
