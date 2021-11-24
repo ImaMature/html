@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+	<style type="text/css">
+		*{text-decoration: none; color: black; font-weight: bold;}
+		h2 { text-align: center;}
+		#box{
+			background-color: green;
+			width: 700px; height: 550px;
+			margin: 0 auto;
+			position: relative; /* 부모를 기준으로 relative가 있어야 함 */
+		}
+		#box div{
+			background-color: yellow;
+			width: 100px; height: 70px;
+			border-radius: 15px;
+			box-shadow: 3px 3px 10px white;
+			text-align: center;
+			padding-top: 25px;
+			position: absolute;
+		}
+		#box1 {
+			left: 300px;
+			top: 80px;
+		}
+		#box2 {
+			left : 150px;
+			top: 150px;
+		}
+		#box3 {
+			left : 450px;
+			top : 150px;
+		}
+		#box4 {
+			left: 150px;
+			top: 290px;
+		}
+		#box5 {
+			left: 300px;
+			top: 360px;
+		}
+		#box6 {
+			left: 450px;
+			top: 290px; 
+		}
+	</style>
+</head>
+<body>
+	<h2>프로그래밍 강좌</h2>
+	<div id = box>
+		<div id=box1>
+			<a href="a">HTML<br>강좌</a>
+		</div>
+		<div id=box2 >
+			<a href="a">CSS<br>강좌</a>
+		</div >
+		<div  id=box3>
+			<a href="a">파이썬<br> 강좌</a>
+		</div>
+		<div id=box4>
+			<a href="a">C#<br> 강좌</a>
+		</div>
+		<div id=box5>
+			<a href="a">PHP<br> 강좌</a>
+		</div>
+		<div id=box6>
+			<a href="a">자바<br> 강좌</a>
+		</div>
+	</div>
+</body>
+</html>

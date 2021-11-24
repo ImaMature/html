@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+	<style type="text/css">
+		#a, #b, #c, #d, #e, #f, #g, #h, #i, #h2, #j, #k, #l {
+			width: 100px; height: 60px; 
+			background-color: yellow; border: solid 1px black;
+		}
+		#b{  /* 상대 위치 (기준점 : 현재 div 시작점)*/
+			position: relative; left: 60px; 
+			top: 30px; 	background-color: red;
+		}
+		
+		#e{ /* 절대 위치 (기준점 : body 시작점)*/
+			position: absolute; left: 80px; 
+			top: 50px; 	background-color: red;
+		} 
+		#parent{
+			width: 350px;	height: 200px;
+			border: solid 1px red;
+			position: relative; /* relative로 현 div 기준으로 절댓값 지정 가능 */ /* relative는 뒤에 있는 요소들이 따라 올라오지 않음 */
+			
+			/* 기준점을 본인걸로 잡을 때는 relative 부모나 body를 기준점으로 할 때는 aboslute*/
+			
+			/* 부모가 relative를 사용하고 자식들이 absolute를 사용하면 자식은 부모 영역을 기준으로 삼아 나타남 */
+			/* 부모가 relative를 안쓰면 자식 h의 기준점은 가장 가까운 상위 태그(body)로 이동. absolute를 사용했기 때문*/
+		}
+		#h{
+			position: absolute; left: 30px;
+			top: 30px;
+		}
+		
+		#parent2{
+			width: 350px;	height: 200px;
+			border: solid 1px red;
+		}
+		#h2{
+			position: absolute;
+			left: 150px;
+			top: 100px;
+		}
+		
+		#k{	/* 화면 내 또는 body 내 위치 고정, 스크롤되어도 고정되어 안움직임, 사이드바나 메뉴에 적합 */
+			position: fixed;
+			top: 30px;	left: 200px;
+		}
+		
+		/*
+		#b			{margin: 0 auto;} 박스권 가운데 정렬 
+		#a			{text-align: center;} 박스권 안에 있는 내용물만 가운데 정렬 
+		*/
+		
+	</style>
+</head>
+<body>
+	
+	<h3>상대 위치 지정</h3>
+	<div id=a> 요소 A </div>
+	<div id=b> 요소 B : 상대위치 </div>
+	<div id=c> 요소 C </div>
+		
+	<h3>절대 위치 지정</h3>
+	<div id=d> 요소 D </div>
+	<div id=e> 요소 E : 절대위치</div>
+	<div id=f> 요소 F </div>
+		
+	<h3>절대 위치 지정</h3> <!-- 박스권 안의 박스권 -->
+	<div id = parent>	
+		<div id=g> 요소 G </div>
+		<div id=h> 요소 H</div>
+		<div id=i> 요소 I </div>
+	</div>
+	
+	<h3>[부모 : relatvie 없을 경우] 절대 위치 지정</h3> <!-- 박스권 안의 박스권 -->
+	<div id = parent2>	
+		<div id=g> 요소 G </div>
+		<div id=h2> 요소 H2</div>
+		<div id=i> 요소 I </div>
+	</div>		
+	
+	<h3>위치 고정</h3>
+	<div id=j> 요소 J </div>
+	<div id=k> 요소 K : 위치 고정 </div>
+	<div id=l> 요소 L </div>
+	
+</body>
+</html>
