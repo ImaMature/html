@@ -54,6 +54,8 @@
 												/* 커서 포인터 : 커서 모양 검지손가락 모양으로 변함 */	
 		.divbox p { margin-top: 30px;}
 		
+		
+		
 	</style>
 </head>
 <body>
@@ -72,5 +74,24 @@
 		<p> 여기는 플로팅 박스 </p>
 	</div>
 	<footer> 여기는 푸터 </footer>
+	
+<!-- 플로팅 박스에서 X누르면 창 사라지게 만들기 -->	
+<!-- 최신버전 JQuery 불러오기 -->	
+ 	<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- js 사용 (body에 넣어야함)-->	
+	 <script type="text/javascript">
+	 	$(".close").on("click", function name() {
+			$(".divbox").fadeOut();
+			
+		})
+	 	// 자바스크립트 주석	== 자바랑 같음
+	 	// $(".클래스명")
+	 		//.on => 어떤 이벤트
+	 		// click => 클릭하는 이벤트
+	 		// ("클릭", function 익명함수 () {실행할 문구들})
+	 			//$(".클래스명").fadeOut() : 해당 태그 숨김
+	 </script>
+	 
+	 
 </body>
 </html>
