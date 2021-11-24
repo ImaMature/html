@@ -8,7 +8,7 @@
 	<style type="text/css">
 		footer {
 			clear:both;
-			height: 180px;
+			height: 200px;
 			background-color: #292C32;
 			padding-bottom:50px;
 			color: white;
@@ -21,11 +21,11 @@
 	
 	<footer>	
 		<div class = "box">
-			<div class = "col_4">
+			<div class = "col_4 col_m_4">
 				<h3>고객센터</h3>
 				<h1>Te1 : 1588-1588</h1> 
 			</div>
-			<div class = "col_6">
+			<div class = "col_6 col_m_6">
 				<ul>
 					<li>회사소개</li><li> | </li>
 					<li>개인정보처리방침</li><li> | </li>
@@ -39,7 +39,7 @@
 						<!-- &copy; : html 카피라이트 문자 -->
 				</p>
 			</div>
-			<div class = "col_2">
+			<div class = "col_2 col_m_2">
 				<a href="#"><img alt="" src="img/facebook.png"></a>
 				<a href="#"><img alt="" src="img/blog.png"></a>
 				<a href="#"><img alt="" src="img/instagram.png"></a>

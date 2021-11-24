@@ -13,7 +13,7 @@
 			height: 200px;
 		}
 		.items{
-			height:130px; 
+			height:200px; 
 		}
 			
 		
@@ -40,20 +40,20 @@
 	<section class = "banners"> <!-- 배너들을 묶어주는 클래스 -->
 		<div class = "box">
 			<!-- 첫번째 배너 -->
-			<div class = "banner col_6">
+			<div class = "banner col_6 col col_m_6">
 				<ul>
-					<li class = col_3><img alt="" src="img/icon1.png"></li>
-					<li class = col_9>
+					<li class = col_s_3><img alt="" src="img/icon1.png"></li>
+					<li class = col_s_9>
 						<h3> 예약 안내 </h3>
 						<p> 스튜디오 대여는 사전에 인터넷 예약을 하셔야합니다. 예약을 1일 이전까지 가능합니다.</p>
 					</li>
 				</ul>
 			</div>	
 			<!-- 두번재 배너 -->
-			<div class = "banner col_6">
+			<div class = "banner col_6 col_m_6">
 				<ul>
-					<li class = col_3><img alt="" src="img/icon2.png"></li>
-					<li class = col_9>
+					<li class = col_s_3><img alt="" src="img/icon2.png"></li>
+					<li class = col_s_9>
 						<h3> 포토 갤러리 </h3>
 						<p> 취업사진, 가족사진, 프로필 사진, 우정 사진 등 개인 또는 단체가 이용할 수 있습니다.</p></li>
 				</ul>
@@ -63,28 +63,28 @@
 	
 	<section class = "items">
 		<div class = "box">
-			<div class = "item col_3">
+			<div class = "item col_3 col_m_6">
 				<ul>
 					<li><img alt="" src="img/image1.jpg"></li>
 					<li><h3>촬영 스튜디오</h3></li>
 					<li>카메라, 조명 등 촬영 장비 완비</li>
 				</ul>
 			</div>
-			<div class = "item col_3">
+			<div class = "item col_3 col_m_6">
 				<ul>
 					<li><img alt="" src="img/image2.jpg"></li>
 					<li><h3>촬영 스튜디오</h3></li>
 					<li>카메라, 조명 등 촬영 장비 완비</li>
 				</ul>
 			</div>
-			<div class = "item col_3">
+			<div class = "item col_3 col_m_6">
 				<ul>
 					<li><img alt="" src="img/image3.jpg"></li>
 					<li><h3>촬영 스튜디오</h3></li>
 					<li>카메라, 조명 등 촬영 장비 완비</li>
 				</ul>
 			</div>
-			<div class = "item col_3">
+			<div class = "item col_3 col_m_6">
 				<ul>
 					<li><img alt="" src="img/image4.jpg"></li>
 					<li><h3>촬영 스튜디오</h3></li>
