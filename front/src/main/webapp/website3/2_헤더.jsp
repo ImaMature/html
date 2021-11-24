@@ -66,7 +66,7 @@
 		
 			/* 데스크탑 CSS */
 		@media only screen and ( min-width : 1200px ){ 			/* 데스크탑 css */
-			
+				/* and 뒤에 띄어쓰기 필수 */
 			.col_1{ width: 8.33%; }.col_2{ width: 16.66%;}.col_3{ width: 25%; }
 			.col_4{ width: 33.33%;}.col_5{ width: 41.66%; }.col_6{ width: 50%; }
 			.col_7{ width: 58.33%; }.col_8{ width: 66.66%; }.col_9{ width: 75%; }
