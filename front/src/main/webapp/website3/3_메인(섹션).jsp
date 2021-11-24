@@ -6,7 +6,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 	<style type="text/css">
-		.main_img{
+		.main_img img{
 			max-width : 100%;
 		}
 		.banners{
@@ -16,19 +16,7 @@
 			height:130px; 
 		}
 			
-		[class*="col_"] {float:left; padding:15px;}
-		.col_1{width: 8.33%;} /* 12칸 중 1칸 */
-		.col_2{width: 16.66%}
-		.col_3{width: 25%;}
-		.col_4{width: 33.33%;}
-		.col_5{width: 41.66%;}
-		.col_6{width: 50%;}
-		.col_7{width: 58.33%;}
-		.col_8{width: 66.66%;}
-		.col_9{width: 75%;}
-		.col_10{width: 83.33%;}
-		.col_11{width: 91.66%;}
-		.col_12{width: 100%;} /* 12칸 중 12칸 */
+		
 		
 		/* 배너 */
 		.banner{padding: 15px;}
