@@ -36,8 +36,7 @@
 		
 		.divbox{			/* 플로팅 박스 */
 			width: 150px; height: 100px;
-			border: solid 1px red;
-			background-color: red;
+			background-color: black;
 			position: absolute;
 			right: 50px;
 			top: 150px;
@@ -52,10 +51,10 @@
 		.divbox .close {float: right; margin-right: 10px;}
 		.divbox .close:hover{cursor: pointer;} 	/* :hover : 해당 태그의 마우스를 올렸을 때 변하는 거 */
 												/* 커서 포인터 : 커서 모양 검지손가락 모양으로 변함 */	
-		.divbox p { margin-top: 30px;}
+		.divbox img { border: 1px black solid; margin: 0 auto; width: 150px; box-sizing: border-box;} /*플로팅 박스 이미지*/
 		
 		
-		
+	
 	</style>
 </head>
 <body>
@@ -70,8 +69,10 @@
 	</div>
 	<!-- 플로팅 박스 -->
 	<div class = divbox>
-		<div class = close>X</div>
-		<p> 여기는 플로팅 박스 </p>
+		<div>
+			<div class = close>X</div>
+			<img alt="" src="4dollars.png">
+		</div>
 	</div>
 	<footer> 여기는 푸터 </footer>
 	
