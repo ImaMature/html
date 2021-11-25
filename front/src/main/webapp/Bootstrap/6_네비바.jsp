@@ -17,11 +17,11 @@
 												<!-- fixed-top : 위 고정 / fixed-bottom : 아래 고정 -->
 						
 		
-			<a href="#" class="navbar-brand" href="#">로고</a> <!-- navbar-brand : 로고 들어가는 곳 이미지 넣기 -->	
+			<a href="#" class="navbar-brand">로고</a> <!-- navbar-brand : 로고 들어가는 곳 이미지 넣기 -->	
 			
 			<!-- 메뉴 없어질경우 버튼 -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontents"
-					aria-controls="navbarcontents" aria-expended="false" aria-abel="Toggle navi">
+					aria-controls="navbarcontents" aria-expanded="false" aria-abel="Toggle navi">
 					
 				<span class="navbar-toggler-icon"></span>
 			</button>	
