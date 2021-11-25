@@ -5,6 +5,19 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+	<style type="text/css">
+		.carousel-item {
+			!important; /* !important; -> id보다 더 우선순위로 만들기 */
+						/* !important > id > class > 태그 > * */				
+			width:1100px;
+			height : 500px;
+			
+		}
+		img{
+			width: 1100px;
+			height: 500px;			
+		}
+	</style>
 </head>
 <body>
 	<%@include file="1_부트스트랩시작.jsp" %>
@@ -22,13 +35,17 @@
 			</ol>
 		
 			<div class = "carousel-item active">	<!-- 슬라이드내 아이템 -->
-				<img alt="첫번째 슬라이드" src="owl.jpg" style="width: 800px;">
+				<img alt="첫번째 슬라이드" src="statue.jpg">
+				<div class="carousel-caption"> <!-- 이미지 레이블 -->
+					<h3>미국</h3>
+					<p>자유민주주의와 공산주의가 공존하는 곳</p>
+				</div>
 			</div>
 			<div class = "carousel-item">
-				<img alt="두번째 슬라이드" src="owl.jpg" style="width: 800px;">
+				<img alt="두번째 슬라이드" src="statue.jpg">
 			</div>
 			<div class = "carousel-item">
-				<img alt="세번째 슬라이드" src="owl.jpg" style="width: 800px;">
+				<img alt="세번째 슬라이드" src="statue.jpg">
 			</div>
 			
 			<!-- 버튼 -->
