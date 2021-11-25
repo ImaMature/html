@@ -6,8 +6,6 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 	<style type="text/css">
-		
-	*{border: solid 1px green;}
 	.navbar-brand {width: 200px; margin: 0 auto;}
 	.navbar-brand:hover{  transition: all 0.2s linear; transform: scale(1.2);}
 	.navbar-nav li {padding:0 10px 0 0; font-size: 20px; color:black;}
